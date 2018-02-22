@@ -1,0 +1,39 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Transactionable:</strong>
+  <%= @transaction.transactionable %>
+</p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @transaction.title %>
+</p>
+
+<p>
+  <strong>Notes:</strong>
+  <%= @transaction.notes %>
+</p>
+
+<p>
+  <strong>Amount:</strong>
+  <%= @transaction.amount %>
+</p>
+
+<p>
+  <strong>Due on:</strong>
+  <%= @transaction.due_on %>
+</p>
+
+<p>
+  <strong>Recur:</strong>
+  <%= @transaction.recur %>
+</p>
+
+<p>
+  <strong>Recur type:</strong>
+  <%= @transaction.recur_type %>
+</p>
+
+<%= link_to 'Edit', edit_transaction_path(@transaction) %> |
+<%= link_to 'Back', transactions_path %>
