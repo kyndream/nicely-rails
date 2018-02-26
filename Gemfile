@@ -24,8 +24,6 @@ gem 'jquery-rails'                      # Use jquery as the JavaScript library
 gem 'turbolinks', '~> 5'                # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
 gem 'jquery-turbolinks'
 gem 'jbuilder', '~> 2.5'                # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
-gem 'devise'                            # User Authentication
-gem 'carrierwave', '~> 1.0'             # File uploads (profile pic)
 
 group :development, :test do
   gem 'byebug'                          # Call 'byebug' anywhere in the code to stop execution and get a debugger console
@@ -46,4 +44,6 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 
-# put your project specific gems here
+# put project specific gems here
+gem 'devise'                            # User Authentication
+gem 'carrierwave', '~> 1.0'             # File uploads (profile pic)
