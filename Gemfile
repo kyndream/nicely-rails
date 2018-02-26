@@ -5,7 +5,7 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
-gem 'rails', '~> 5.0.6'                 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
+gem 'rails', '~> 5.1'                 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 
 
 # web server
@@ -48,3 +48,5 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 # put project specific gems here
 gem 'devise'                            # User Authentication
 gem 'carrierwave', '~> 1.0'             # File uploads (profile pic)
+gem 'webpacker', git: 'https://github.com/rails/webpacker.git'
+gem 'react-rails'
