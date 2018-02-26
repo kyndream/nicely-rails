@@ -33,11 +33,19 @@ DATABASE_PASSWORD=pandas
 DATABASE_NAME=nicely
 ```
 
-**After bundling and running migrations:**
+#### After bundling and running migrations, run your local servers:
+
+#### For rails:
 ```ruby
-# Start your local server on port 3000
 passenger start
 
-# In another tab, start your webpack server
+#or
+rails s
+```
+
+**In another tab, start your webpack server:**
+
+```ruby
+# this runs ./bin/webpack-dev-server
 npm run start:dev
 ```
